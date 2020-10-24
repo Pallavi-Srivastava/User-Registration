@@ -53,7 +53,7 @@ public class EntryUserRegistration {
 		System.out.println("MobileNo : " + mobileNo + " is " + match);
 	}
 
-	// Method for Password validation a/c to rule 1
+	// Method for Password validation a/c to rule1
 	public void isValidPasswordAccToRule1() {
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter min 8 char any password : ");

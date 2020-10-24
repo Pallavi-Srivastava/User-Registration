@@ -11,7 +11,7 @@ public class UserRegistration {
 		ur.isValidEmail();
 		// MobileNo validation
 		ur.isValidMobileNo();
-		// Password validation a/c to rule 1
+		// Password validation a/c to rule1
 		ur.isValidPasswordAccToRule1();
 	}
 }
