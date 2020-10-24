@@ -70,7 +70,7 @@ public class EntryUserRegistration {
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter min 8 char password should contain one uppercase: ");
 		String password = sc.nextLine();
-		String regex = "^[a-zA-Z]{7}[A-Z]{1}[A-Z]*";
+		String regex = "^[a-zA-Z0-9@#!]{7}[A-Z]{1}[A-Z]*";
 		Pattern pattern = Pattern.compile(regex);
 		Matcher matcher = pattern.matcher(password);
 		boolean match = matcher.matches();
