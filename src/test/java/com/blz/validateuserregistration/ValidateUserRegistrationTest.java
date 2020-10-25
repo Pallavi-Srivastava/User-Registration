@@ -54,28 +54,28 @@ public class ValidateUserRegistrationTest {
 	// Checking the validity of Last name
 	@Test
 	public void testLastNameWhenFirstCharIsCapswith3MinChar_thenAssertionHappy() {
-		boolean result = obj.isValidFirstName("Sri");
+		boolean result = obj.isValidLastName("Sri");
 		assertEquals(true, result);
 		System.out.println("Successfully Passed TestCase");
 	}
 
 	@Test
 	public void testLastNameWhenFirstCharIsCapswithMoreThan3Char_thenAssertionHappy() {
-		boolean result = obj.isValidFirstName("Srivastava");
+		boolean result = obj.isValidLastName("Srivastava");
 		assertEquals(true, result);
 		System.out.println("Successfully Passed TestCase");
 	}
 
 	@Test
 	public void testLastNameWhenFirstCharIsNotCapswith3MinChar_thenAssertionSad() {
-		boolean result = obj.isValidFirstName("singh");
+		boolean result = obj.isValidLastName("singh");
 		assertEquals(true, result);
 		System.out.println("Fail To Pass TestCase");
 	}
 
 	@Test
 	public void testLastNameWhenFirstCharIsCapswith2MinChar_thenAssertionSad() {
-		boolean result = obj.isValidFirstName("Si");
+		boolean result = obj.isValidLastName("Si");
 		assertEquals(true, result);
 		System.out.println("Fail To Pass TestCase");
 	}
