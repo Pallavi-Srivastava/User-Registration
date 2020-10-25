@@ -28,7 +28,7 @@ public class ParameterizedTestForEmailAddress {
 	}
 
 	@Test
-	public void testPrimeNumber() {
+	public void testSampleEmail() {
 		assertEquals(result, obj.isValidSampleEmail(emailAddress));
 	}
 
