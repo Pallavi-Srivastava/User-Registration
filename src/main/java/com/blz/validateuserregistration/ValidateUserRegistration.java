@@ -13,7 +13,7 @@ public class ValidateUserRegistration {
 		return m.matches();
 	}
 
-	// Method for first name validation
+	// Method for last name validation
 	public boolean isValidLastName(String lname) {
 		String regex = "^[A-Z]{1}[a-z]{2,}";
 		Pattern p = Pattern.compile(regex);
