@@ -92,8 +92,7 @@ public class EntryUserRegistration {
 	// Method for Password validation a/c to rule 4
 	public void isValidPasswordAccToRule4() {
 		Scanner sc = new Scanner(System.in);
-		System.out
-				.print("Enter min 8 char password should contain one uppercase,one numeric Value & one special char: ");
+		System.out.print("Enter min 8 char password should contain one uppercase,one numeric Value & one special char: ");
 		String password = sc.nextLine();
 		String regex = "^[a-zA-Z0-9@#!]{5}[A-Z]{1}[A-Z]*[0-9]{1}[0-9]*[@#%]{1}[@#%]*";
 		Pattern pattern = Pattern.compile(regex);
